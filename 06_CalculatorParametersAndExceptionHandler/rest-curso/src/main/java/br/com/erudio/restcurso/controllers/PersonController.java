@@ -27,11 +27,6 @@ public class PersonController {
     public ResponseEntity<PersonVO> create(@RequestBody PersonVO personVO) throws Exception {
         return ResponseEntity.status(201).body(personService.create(personVO));
     }
-    @PostMapping(value = "/v2/create", produces = MediaType.APPLICATION_JSON_VALUE,
-            consumes = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<PersonVOV2> createV2(@RequestBody PersonVOV2 personVO) throws Exception {
-        return ResponseEntity.status(201).body(personService.createV2(personVO));
-    }
 
     @PutMapping(value = "/update", produces = MediaType.APPLICATION_JSON_VALUE,
             consumes = MediaType.APPLICATION_JSON_VALUE)
