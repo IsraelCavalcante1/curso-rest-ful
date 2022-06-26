@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/FirstStepsInJava/rest-curso/pom.xml" />
         <option value="$PROJECT_DIR$/05_FirstStepsInJava/rest-curso/pom.xml" />
+        <option value="$PROJECT_DIR$/06_CalculatorParametersAndExceptionHandler/rest-curso/pom.xml" />
       </list>
     </option>
   </component>
