@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/curso-rest-ful.iml" filepath="$PROJECT_DIR$/.idea/curso-rest-ful.iml" />
-      <module fileurl="file://$PROJECT_DIR$/FirstStepsInJava/rest-curso/rest-curso.iml" filepath="$PROJECT_DIR$/FirstStepsInJava/rest-curso/rest-curso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_FirstStepsInJava/rest-curso/rest-curso.iml" filepath="$PROJECT_DIR$/05_FirstStepsInJava/rest-curso/rest-curso.iml" />
     </modules>
   </component>
 </project>
