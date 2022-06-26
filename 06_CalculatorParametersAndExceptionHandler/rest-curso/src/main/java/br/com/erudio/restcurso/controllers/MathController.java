@@ -1,4 +1,4 @@
-package br.com.erudio.restcurso;
+package br.com.erudio.restcurso.controllers;
 
 import br.com.erudio.restcurso.exceptions.UnsupportedMathOperationException;
 import br.com.erudio.restcurso.services.MathService;
