@@ -1,7 +1,6 @@
 package br.com.erudio.restcurso.controllers;
 
 import br.com.erudio.restcurso.data.vo.v1.PersonVO;
-import br.com.erudio.restcurso.data.vo.v2.PersonVOV2;
 import br.com.erudio.restcurso.services.PersonServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
@@ -11,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/person")
+@RequestMapping("/api/person/v1")
 public class PersonController {
 
     @Autowired
